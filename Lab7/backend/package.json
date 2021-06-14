@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend for lab 7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Alex Johnson (10439617)",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.23.0",
+    "axios": "^0.21.1",
+    "bluebird": "^3.7.2",
+    "blueimp-md5": "^2.18.0",
+    "graphql": "^15.5.0",
+    "redis": "^3.1.2"
+  }
+}

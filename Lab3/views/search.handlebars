@@ -1,0 +1,11 @@
+{{#if error}}
+{{error}}
+{{else}}
+
+<ul>
+    {{#each shows}}
+    <li><a href="/show/{{show.id}}">{{show.name}}</a></li>
+    {{/each}}
+</ul>
+
+{{/if}}
